@@ -64,12 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-nav {
-	color: grey;
+nav a {
+	color: gray;
+	font-family: "Titillium Web", sans-serif;
 	display: inline-block;
-	box-sizing: border-box;
-	text-align: center;
 	width: calc(100%/7);
-	
+	height: 100px;
+	text-align: center;
+}
+
+nav img {
+	float: right;
+}
+
+a:hover {
+	color: teal;
 }
