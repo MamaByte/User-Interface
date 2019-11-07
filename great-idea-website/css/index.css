@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	/* vertical-align: baseline; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,19 +64,65 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav a {
-	color: gray;
-	font-family: "Titillium Web", sans-serif;
+.very-top {
 	display: inline-block;
-	width: calc(100%/7);
-	height: 100px;
-	text-align: center;
+	box-sizing: border-box;
+	margin: 0% auto 0% auto;
+	/* border: 1px solid red; */
+	padding: none;
+	width: 95%;
+	height: 50px;
+}
+.very-top img {
+	float: right;
+	position: absolute;
+	right: 50px;
+	top: 1%;
+	/* border: solid green; */
+	margin: 0px;
+}
+.very-top .tag {
+	display:inline-block;
+	box-sizing: border-box;
+	padding-top: 25px;
+	padding-left: 5px;
+	margin-right: 100px;
+	color: gray;
+	text-decoration: none;
 }
 
-nav img {
+a:hover{
+	color: cyan;
+}
+
+.title {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid darkred;
+	margin: 2% auto 5% auto;
+	width: 90%;
+	height: 400px;
+}
+
+.title img {
 	float: right;
 }
 
-a:hover {
-	color: teal;
+.title .large-title {
+	display: inline-block;
+	font-size: 100px;
+	text-align: center;
+	margin-left: 10%;
+}
+#button {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 20px;
+	width: 100px;
+	border: 1px solid black;
+	padding: 5px;
+	font-size: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
 }
