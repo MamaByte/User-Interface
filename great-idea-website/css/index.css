@@ -98,7 +98,7 @@ a:hover{
 .title {
 	display: inline-block;
 	box-sizing: border-box;
-	border: 1px solid darkred;
+	/* border: 1px solid darkred; */
 	margin: 2% auto 5% auto;
 	width: 90%;
 	height: 400px;
@@ -125,4 +125,37 @@ a:hover{
 	text-align: center;
 	text-decoration: none;
 	color: black;
+}
+
+.first-line {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 10%;
+	width: 100%;
+	word-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid darkblue;
+}
+
+.features {
+	display: inline-block;
+	width: 50%;
+	
+}
+
+.about {
+	display: block;
+	width: 50%;
+	text-align: right;
+	float: right;
+}
+
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	
 }
